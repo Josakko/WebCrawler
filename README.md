@@ -6,7 +6,7 @@ Web crawler made in python
 Usage example is down below.
 
 <p align="center">
-  <img alt="issue" src="" width="650px">
+  <img alt="issue" src="https://github.com/Josakko/WebCrawler/blob/main/image.png?raw=true" width="650px">
 </p>
 
 
