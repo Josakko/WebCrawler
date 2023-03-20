@@ -4,7 +4,19 @@ import json
 import time
 
 
+def valid_url(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return True
+    except:
+        return False
+
 url = input("Enter the URL: ")
+
+while not valid_url(url):
+    print("Invalid URL. Please enter a valid URL.")
+    url = input("Enter the URL: ")
 
 response = requests.get(url)
 
